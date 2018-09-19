@@ -1,0 +1,68 @@
+2018-09-17 20:46:28 [127.0.0.1][1][amnl85u0e7vmuk50l9b7lkk360][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Unknown bootstrapping component ID: yii' in C:\OSPanel\domains\yii\yii\vendor\yiisoft\yii2\base\Application.php:317
+Stack trace:
+#0 C:\OSPanel\domains\yii\yii\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#1 C:\OSPanel\domains\yii\yii\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#2 C:\OSPanel\domains\yii\yii\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#3 C:\OSPanel\domains\yii\yii\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#4 C:\OSPanel\domains\yii\public_html\admin\index.php(17): yii\base\Application->__construct(Array)
+#5 {main}
+2018-09-17 20:46:28 [127.0.0.1][1][amnl85u0e7vmuk50l9b7lkk360][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'amnl85u0e7vmuk50l9b7lkk360'
+    '_identity-backend' => 'f94472288fe64f926dd312ca12ab6fe5b0b123e7f86961de27a3120d9977c5d1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"PG0yZ1hHRpkTeGfosCFuatPafT2d25mj\",2592000]\";}'
+    '_csrf-backend' => '7e14f55b40edd667f78f2ad0ac82ac91fc992cf80f1f16430770a33f947c59f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Qyt1IPcZFUfDvc-d5MSbOUN5NmFqiqNl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'admin.yii.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=amnl85u0e7vmuk50l9b7lkk360; _identity-backend=f94472288fe64f926dd312ca12ab6fe5b0b123e7f86961de27a3120d9977c5d1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22PG0yZ1hHRpkTeGfosCFuatPafT2d25mj%22%2C2592000%5D%22%3B%7D; _csrf-backend=7e14f55b40edd667f78f2ad0ac82ac91fc992cf80f1f16430770a33f947c59f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Qyt1IPcZFUfDvc-d5MSbOUN5NmFqiqNl%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'admin.yii.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii/public_html/admin'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/yii/public_html/admin'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/yii/public_html/admin/index.php'
+    'REMOTE_PORT' => '5853'
+    'REDIRECT_URL' => '/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537206388.422
+    'REQUEST_TIME' => 1537206388
+    'argv' => []
+    'argc' => 0
+]
